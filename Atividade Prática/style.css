@@ -1,0 +1,59 @@
+body {
+    font-family: Georgia, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    line-height: 1.6; /*aumenta o espaçamento entre linhas*/
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+    margin-bottom: 2rem; /*separa o header do conteúdo*/
+}
+
+section {
+    padding: 2em;
+    margin: 2em auto;   /*centraliza e dá espaçamento externo*/
+    border: 2px solid #444;
+    border-radius: 10px;
+}
+
+/*Cada seção com fundo diferente*/
+#apresentacao {
+    background-color: #e6f2ff;
+    width: 80%;
+    margin-bottom: 3rem; /*aumenta espaço abaixo*/
+}
+
+#hobbies {
+    background-color: #fff5e6;
+    width: 70%;
+    margin-bottom: 3rem;
+    min-height: 40vh;
+}
+
+/*Destaque com span*/
+.destaque {
+    color: darkred;
+    font-weight: bold;
+}
+
+/*Caixa de hobbies*/
+.hobbies-box {
+    background-color: white;
+    padding: 1.5rem;
+    border: 2px solid #000;
+    margin-top: 1.5rem;
+}
+
+/*Rodapé*/
+footer {
+    text-align: center;
+    padding: 1.5rem;
+    background-color: #333;
+    color: white;
+    margin-top: 2rem; /* separa do conteúdo anterior */
+}
